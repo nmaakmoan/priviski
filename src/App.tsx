@@ -3,6 +3,7 @@ import { HabitForm } from './components/HabitForm'
 import { HabitList } from './components/HabitList'
 import { FilterBar } from './components/FilterBar'
 import { useLocalStorage } from './hooks/useLocalStorage'
+import './App.css'
 import { Habit, FilterType } from './types'
 
 const STORAGE_KEY = 'habit-tracker:habits'
