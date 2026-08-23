@@ -45,3 +45,32 @@
 .habit-form__button:hover {
   background: var(--color-primary-hover);
 }
+
+.filter-bar {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 1.25rem;
+}
+
+.filter-bar__button {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: var(--color-surface);
+  color: var(--color-muted);
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.15s ease;
+}
+
+.filter-bar__button:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.filter-bar__button--active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
