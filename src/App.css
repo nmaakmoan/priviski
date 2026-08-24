@@ -126,3 +126,10 @@
 .habit-item__delete:hover {
   background: rgba(225, 29, 72, 0.1);
 }
+
+.app__summary {
+  text-align: center;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  margin: -0.5rem 0 1rem;
+}

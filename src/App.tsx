@@ -46,11 +46,18 @@ function App() {
     }
   }, [habits, filter])
 
+  const completedCount = habits.filter((h) => h.done).length
+
   return (
     <div className="app">
       <h1>Трекер привычек</h1>
       <HabitForm onAdd={addHabit} />
       <FilterBar current={filter} onChange={setFilter} />
+      {habits.length > 0 && (
+        <p className="app__summary">
+          Выполнено {completedCount} из {habits.length}
+        </p>
+      )}
       <HabitList habits={filteredHabits} onToggle={toggleHabit} onDelete={deleteHabit} />
     </div>
   )
