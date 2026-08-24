@@ -22,7 +22,13 @@ function App() {
   const [filter, setFilter] = useState<FilterType>('all')
 
   const addHabit = (title: string) => {
-    setHabits((prev) => [...prev, createHabit(title)])
+    setHabits((prev) => {
+      const alreadyExists = prev.some(
+        (h) => h.title.toLowerCase() === title.toLowerCase(),
+      )
+      if (alreadyExists) return prev
+      return [...prev, createHabit(title)]
+    })
   }
 
   const toggleHabit = (id: string) => {
