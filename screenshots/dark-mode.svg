@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 460" font-family="'Segoe UI', system-ui, Arial, sans-serif">
+  <rect width="700" height="460" fill="#14161f"/>
+
+  <text x="350" y="55" text-anchor="middle" font-size="26" font-weight="700" fill="#f1f2f6">Трекер привычек</text>
+
+  <rect x="70" y="85" width="440" height="44" rx="8" fill="#1e2130" stroke="#2c2f3e"/>
+  <text x="90" y="112" font-size="15" fill="#9aa0ac">Например: пить воду, читать 20 минут...</text>
+  <rect x="520" y="85" width="110" height="44" rx="8" fill="#4f46e5"/>
+  <text x="575" y="112" text-anchor="middle" font-size="15" font-weight="600" fill="#ffffff">Добавить</text>
+
+  <rect x="70" y="145" width="150" height="38" rx="8" fill="#4f46e5"/>
+  <text x="145" y="169" text-anchor="middle" font-size="14" fill="#ffffff">Все</text>
+  <rect x="230" y="145" width="150" height="38" rx="8" fill="#1e2130" stroke="#2c2f3e"/>
+  <text x="305" y="169" text-anchor="middle" font-size="14" fill="#9aa0ac">Активные</text>
+  <rect x="390" y="145" width="240" height="38" rx="8" fill="#1e2130" stroke="#2c2f3e"/>
+  <text x="510" y="169" text-anchor="middle" font-size="14" fill="#9aa0ac">Выполненные</text>
+
+  <text x="350" y="205" text-anchor="middle" font-size="14" fill="#9aa0ac">Выполнено 1 из 3</text>
+
+  <g>
+    <rect x="70" y="225" width="560" height="52" rx="8" fill="#1e2130" stroke="#2c2f3e"/>
+    <rect x="88" y="244" width="16" height="16" rx="4" fill="none" stroke="#9aa0ac"/>
+    <text x="118" y="257" font-size="15" fill="#f1f2f6">Пить 2 литра воды</text>
+    <text x="608" y="257" font-size="15" fill="#e11d48">✕</text>
+  </g>
+
+  <g>
+    <rect x="70" y="287" width="560" height="52" rx="8" fill="#1e2130" stroke="#2c2f3e"/>
+    <rect x="88" y="306" width="16" height="16" rx="4" fill="#16a34a" stroke="#16a34a"/>
+    <path d="M91 314l3 3 8-8" stroke="#fff" stroke-width="2" fill="none"/>
+    <text x="118" y="319" font-size="15" fill="#9aa0ac" text-decoration="line-through">Читать 20 минут</text>
+    <text x="608" y="319" font-size="15" fill="#e11d48">✕</text>
+  </g>
+
+  <g>
+    <rect x="70" y="349" width="560" height="52" rx="8" fill="#1e2130" stroke="#2c2f3e"/>
+    <rect x="88" y="368" width="16" height="16" rx="4" fill="none" stroke="#9aa0ac"/>
+    <text x="118" y="381" font-size="15" fill="#f1f2f6">Зарядка по утрам</text>
+    <text x="608" y="381" font-size="15" fill="#e11d48">✕</text>
+  </g>
+
+  <text x="350" y="440" text-anchor="middle" font-size="12" fill="#9aa0ac">Иллюстративный макет тёмной темы</text>
+</svg>
